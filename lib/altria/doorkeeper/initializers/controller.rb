@@ -1,0 +1,1 @@
+ApplicationController.doorkeeper_for :all

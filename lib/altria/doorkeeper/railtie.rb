@@ -4,7 +4,9 @@ module Altria
   module Doorkeeper
     class Railtie < Rails::Engine
       initializer "altria.doorkeeper" do |app|
-        require "altria/doorkeeper/initializer"
+        require "altria/doorkeeper/initializers/controller"
+        require "altria/doorkeeper/initializers/routes"
+        require "altria/doorkeeper/initializers/doorkeeper"
 
         unless app.root.to_s.match(root.to_s)
           app.config.paths["db/migrate"] << config.paths["db/migrate"].expanded.first
