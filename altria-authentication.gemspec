@@ -1,14 +1,14 @@
 lib = File.expand_path("../lib", __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require "altria/doorkeeper/version"
+require "altria/authentication/version"
 
 Gem::Specification.new do |spec|
-  spec.name          = "altria-doorkeeper"
-  spec.version       = Altria::Doorkeeper::VERSION
+  spec.name          = "altria-authentication"
+  spec.version       = Altria::Authentication::VERSION
   spec.authors       = ["Ryo Nakamura"]
   spec.email         = ["r7kamura@gmail.com"]
   spec.summary       = "Altria authentication plugin"
-  spec.homepage      = "https://github.com/r7kamura/altria-doorkeeper"
+  spec.homepage      = "https://github.com/r7kamura/altria-authentication"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
