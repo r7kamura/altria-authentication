@@ -9,5 +9,5 @@ gem "altria-authentication", git: "git@github.com:r7kamura/altria-authentication
 ```
 
 ## Usage
-1. For HTML API, a user need to sign in to access any page. (We are not providing a sign-up form)
-2. For JSON API, a user need to pass an access token via HTTP Authorization header or params.
+1. For JSON API, a user need to pass an access token via HTTP Authorization header or params.
+2. For HTML API, a user need to sign in to access any page. (Please use console to register a new user)
