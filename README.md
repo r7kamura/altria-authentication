@@ -8,6 +8,11 @@ gem "doorkeeper", git: "git@github.com:applicake/doorkeeper.git" # for Rails4 su
 gem "altria-authentication", git: "git@github.com:r7kamura/altria-authentication.git"
 ```
 
+```
+$ cd /path/to/altria
+$ rake db:migrate
+```
+
 ## Usage
 You need to create new User records for your application users.
 Please do it via rails console.
